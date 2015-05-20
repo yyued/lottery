@@ -1,0 +1,37 @@
+{
+  "family": "",
+  "name": "lottery",
+  "version": "1.0.0",
+  "description": "抽奖动画",
+  "homepage": "https://github.com/duowan/lottery",
+  "author": "adi",
+  "maintainers": [
+    "adi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/duowan/lottery.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "ftp": {
+        "host": "172.19.103.15",
+        "port": 21,
+        "authKey": "publisher",
+        "dest": "/lego/2.1.0/demo/lottery/",
+        "src": "_site/",
+        "exclusions": ["package.json", ".gitignore", ".DS_Store", ".svn", "bak", ".ftppass"]
+    },
+    "output": [
+      "lottery.js",
+      "lottery.css"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}

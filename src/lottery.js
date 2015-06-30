@@ -73,6 +73,9 @@ define(function (require, exports, module) {
 		        }
 		    } 
 		    this._stop = function (stopIndex, cb, cbCtx) {
+		    	stopIndex = stopIndex || 0
+		    	cb = cb || function(){}
+
 		        timerId2 = setInterval(move2, SPEED_HIGH);
 		        function move2() {   
 		            //跑马灯变速
